@@ -1,73 +1,94 @@
-# Welcome to your Lovable project
 
-## Project info
+# SoftSell - Software License Marketplace
 
-**URL**: https://lovable.dev/projects/99ae1b28-3255-47bc-8db1-5c3bfffed679
+A responsive single-page website for SoftSell, a fictional company that helps businesses monetize their unused software licenses.
 
-## How can I edit this code?
+## Features Implemented
 
-There are several ways of editing your application.
+- **Responsive Design**: Fully responsive layout that works on mobile, tablet, and desktop devices
+- **Modern UI**: Clean, professional design with a cohesive color palette
+- **Interactive Elements**:
+  - Animated section transitions
+  - Interactive form with validation
+  - AI-powered chat widget with predefined Q&A
+- **Complete Sections**:
+  - Hero section with call-to-action
+  - How It Works process explanation
+  - Why Choose Us benefits
+  - Customer Testimonials
+  - Contact form with validation
+  - FAQ section
+  - Footer with navigation and contact info
+- **Special Features**:
+  - Dark/Light mode toggle
+  - Scroll animations
+  - Form validation
+  - Chat widget interface
+  - Responsive navigation
 
-**Use Lovable**
+## Design Choices
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/99ae1b28-3255-47bc-8db1-5c3bfffed679) and start prompting.
+- **Color Palette**:
+  - Primary Purple (#9b87f5) - Modern, tech-focused main brand color
+  - Secondary Purple (#7E69AB) - Complementary deeper purple for gradient effects
+  - Accent Orange (#F97316) - High-contrast accent for CTAs and highlights
+  - Dark Gray (#1A1F2C) - Professional dark background for dark mode
+  - Light Gray (#F1F0FB) - Subtle background for light mode
+  - White (#FFFFFF) - Clean canvas for content
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Typography**:
+  - Inter font family - Modern, highly readable sans-serif typeface
+  - Clear hierarchy with varied weights and sizes
 
-**Use your preferred IDE**
+- **Visual Elements**:
+  - Subtle gradients for depth and visual interest
+  - Shadow effects for elevation and depth
+  - Rounded corners for a friendly, approachable feel
+  - Icon usage for visual reinforcement of concepts
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **Animation**:
+  - Fade-in and slide-in animations triggered on scroll
+  - Subtle hover effects for interactive elements
+  - Smooth scrolling between sections
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Technologies Used
 
-Follow these steps:
+- **Frontend**:
+  - React.js with TypeScript
+  - Tailwind CSS for styling
+  - Radix UI components (via shadcn/ui)
+  - Lucide React for icons
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- **Additional Features**:
+  - Form validation using controlled components
+  - Dark mode implementation using local storage
+  - Chat widget with simulated AI responses
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## Development Time
 
-# Step 3: Install the necessary dependencies.
-npm i
+- Design planning: ~1 hour
+- Component structure: ~1 hour
+- Implementation: ~4 hours
+- Testing and refinement: ~1 hour
+- Total: ~7 hours
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+## Future Enhancements (If More Time Available)
+
+- Integration with a real AI service like OpenAI for the chat widget
+- Animated illustrations for the How It Works section
+- More sophisticated form handling with additional fields
+- Dashboard preview for license management
+- Testimonial carousel with more customer stories
+- Accessibility improvements (ARIA attributes, keyboard navigation)
+
+## Running the Project
+
+```bash
+# Install dependencies
+npm install
+
+# Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/99ae1b28-3255-47bc-8db1-5c3bfffed679) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+The site should now be running on http://localhost:8080
