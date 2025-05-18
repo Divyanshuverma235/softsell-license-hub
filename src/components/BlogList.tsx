@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import { blogService } from '@/services/BlogService';
 import { Blog } from '@/types/blog';
 import { Button } from '@/components/ui/button';
-import { Loader2, FileText, Draft, Edit } from 'lucide-react';
+import { Loader2, FileText, BookOpen, Edit } from 'lucide-react';
 
 interface BlogListProps {
   onEditBlog: (blog: Blog) => void;
@@ -82,7 +82,7 @@ export function BlogList({ onEditBlog }: BlogListProps) {
 
       <div>
         <h2 className="text-xl font-semibold mb-4 flex items-center">
-          <Draft className="mr-2" /> Drafts
+          <BookOpen className="mr-2" /> Drafts
         </h2>
         {blogs.drafts.length === 0 ? (
           <p className="text-muted-foreground">No drafts available</p>
